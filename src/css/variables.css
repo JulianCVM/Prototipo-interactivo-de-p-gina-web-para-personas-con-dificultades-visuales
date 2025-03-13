@@ -9,6 +9,10 @@
 
 @font-face {
     font-family: "ReadexPro-Medium";
-    src: url(../storage/fonts/Readex_Pro/static/ReadexPro-Medium.ttf
+    src: url(../storage/fonts/Readex_Pro/static/ReadexPro-Medium.ttf)
+}
 
+@font-face {
+    font-family: "ReadexPro-Light";
+    src: url(../storage/fonts/Readex_Pro/static/ReadexPro-Light.ttf)
 }

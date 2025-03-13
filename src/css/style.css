@@ -8,16 +8,13 @@
 
 body {
     display: grid;
-    grid-template-columns: 1fr 1fr;
     background-color: red;
-    align-items: center;
-    justify-content: center;
+    grid-template-columns: 1fr 1fr;
 }
 
 .contenido_izq {
     background-color: green;
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
 }
 
 
@@ -82,8 +79,28 @@ body {
 
 .contenedor_parrafo {
     background-color: bisque;
+    margin-left: 65px;
+
+    font-family: ReadexPro-Light;
+    font-size: 16px;
+    line-height: 151.5%;
+    width: 340px;
+    height: 133px;
+}
+
+
+
+.parrafo_final {
+    background-color: azure;
+    margin-left: 65px;
+
+    margin-top: 47px;
+    font-family: ReadexPro-Light;
+    font-size: 13px;
 
 }
+
+
 
 
 
