@@ -28,16 +28,42 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 
+    align-items: baseline;
 
     margin-top: 120px;
     margin-left: 65px;
+
+
 }
 
 .contenedor_titulo .C {
-    max-width: 165px;
+    background-color: red;
+    margin-right: 10.03px;
+
+    max-width: 96.53px;
+}
+
+.contenedor_titulo .R {
+    background-color: red;
+    margin-right: 10.79px;
+
+    max-width: 75.81px;
+}
+
+.contenedor_titulo .A {
+    max-width: 65px;
+}
+
+.contenedor_titulo .E {
+    max-width: 65.03px;
 }
 
 
+.contenedor_subtitulo {
+    background-color: blue;
+    margin-left: 65px;
+
+}
 
 
 
