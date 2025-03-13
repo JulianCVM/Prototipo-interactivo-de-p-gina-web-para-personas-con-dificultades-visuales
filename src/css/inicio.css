@@ -119,10 +119,12 @@ header .luna {
 
 .comprar {
     grid-area: imagen;
-    background-color: white;
-    width: 40%;
-    height: 15%;
-    margin-top: 527px;
+    background-color: black;
+    color: white;
+    width: 237px;
+    gap: 7px;
+    height: 54px;
+    margin-top: 657px;
     margin-left: 197px;
     border-radius: 31.5px;
     display: flex;
@@ -189,6 +191,10 @@ header .luna {
 }
 
 .numero {
+    border-radius: 50%;
+    font-size: 64px;
+    font-family: RobotoCondensed-Bold;
+    margin: 10px 40px;
     color: white;
 }
 
@@ -225,8 +231,15 @@ header .luna {
     margin-top: 83px;
 }
 
+.apoyanos_seccion_imagen_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .apoyanos_seccion_img {
     width: 80%;
+
 }
 
 .apoyanos_seccion_boton {
@@ -237,10 +250,73 @@ header .luna {
 }
 
 .apoyanos_seccion_boton p {
-    padding: 30px;
+    padding: 10px 47px;
     border-radius: 32.5px;
     background-color: black;
     color: white;
     font-size: 36px;
     font-family: RobotoCondensed-Bold;
+}
+
+
+
+
+.sobre_nosotros {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "izq der";
+}
+
+.sobre_nosotros_izq {
+    grid-area: izq;
+    margin-left: 140px;
+}
+
+.sobre_nosotros_der {
+    grid-area: der;
+    margin-right: 140px;
+}
+
+.sobre_nosotros_titulo {
+    font-family: RobotoCondensed-Bold;
+    font-size: 72px;
+}
+
+.sobre_nosotros_parrafo {
+    font-size: 36px;
+    font-family: RobotoCondensed-Regular;
+}
+
+
+.sobre_nosotros_der_img {
+    margin-top: 200px;
+    margin-left: 170px;
+    display: flex;
+    position: relative;
+}
+
+.sobre_nosotros_der_img_izq {
+    position: relative;
+    left: 0;
+}
+
+.sobre_nosotros_der_img_der {
+    position: absolute;
+    left: 120px;
+}
+
+.sobre_nosotros_der_aqua_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobre_nosotros_der_aqua {
+    font-size: 96px;
+    font-family: RobotoCondensed-Regular;
+}
+
+.sobre_nosotros_der_aqua_container img {
+    width: 82px;
+    height: 80px;
 }
