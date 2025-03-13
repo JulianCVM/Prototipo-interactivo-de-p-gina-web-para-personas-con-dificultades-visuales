@@ -320,3 +320,15 @@ header .luna {
     width: 82px;
     height: 80px;
 }
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    width: 100%;
+    font-size: 24px;
+    font-family: RobotoCondensed-Regular;
+    background-color: black;
+}
