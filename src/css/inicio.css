@@ -195,3 +195,52 @@ header .luna {
 .secciones img {
     width: 162px;
 }
+
+
+.apoyanos_seccion {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "izq der";
+}
+
+.apoyanos_seccion_izq {
+    grid-area: izq;
+    margin-left: 142px;
+}
+
+.apoyanos_seccion_der {
+    grid-area: der;
+    margin-right: 131px;
+}
+
+.apoyanos_seccion_titulo {
+    font-family: RobotoCondensed-Bold;
+    font-size: 72px;
+
+}
+
+.apoyanos_seccion_parrafo {
+    font-family: RobotoCondensed-Regular;
+    font-size: 36px;
+    margin-top: 83px;
+}
+
+.apoyanos_seccion_img {
+    width: 80%;
+}
+
+.apoyanos_seccion_boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.apoyanos_seccion_boton p {
+    padding: 30px;
+    border-radius: 32.5px;
+    background-color: black;
+    color: white;
+    font-size: 36px;
+    font-family: RobotoCondensed-Bold;
+}
