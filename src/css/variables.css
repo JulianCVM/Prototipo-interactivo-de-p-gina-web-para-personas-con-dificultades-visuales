@@ -6,3 +6,9 @@
     font-family: "example";
     src: url(../storage/fonts/example.ttf);
 }
+
+@font-face {
+    font-family: "ReadexPro-Medium";
+    src: url(../storage/fonts/Readex_Pro/static/ReadexPro-Medium.ttf
+
+}

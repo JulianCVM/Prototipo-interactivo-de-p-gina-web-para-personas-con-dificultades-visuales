@@ -59,11 +59,32 @@ body {
 }
 
 
+
+
+
+
+
+
 .contenedor_subtitulo {
     background-color: blue;
     margin-left: 65px;
 
+    font-family: ReadexPro-Medium;
+    font-size: 27px;
+    width: 340px;
+    height: 72px;
+
+    margin-top: 21px;
+    margin-bottom: 5px;
 }
+
+
+
+.contenedor_parrafo {
+    background-color: bisque;
+
+}
+
 
 
 
