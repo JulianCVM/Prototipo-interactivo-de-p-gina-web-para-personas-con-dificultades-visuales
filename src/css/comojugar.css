@@ -1,0 +1,58 @@
+@import url(variables.css);
+
+html {
+    background-color: #F2F2F2;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.contenido {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titulo {
+    font-family: RobotoCondensed-Bold;
+    font-size: 64px;
+    color: var(--color-2);
+}
+
+.parrafo_sub {
+    font-family: RobotoCondensed-Regular;
+    font-size: 36px;
+    color: var(--color-2);
+    margin: 0px 393px;
+}
+
+.secciones {
+    margin: 41px 170px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    font-family: RobotoCondensed-Regular;
+    font-size: 28px;
+}
+
+.circulo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.numero {
+    color: white;
+}
+
+.secciones img {
+    width: 162px;
+}
