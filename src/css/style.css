@@ -8,20 +8,19 @@
 
 body {
     display: grid;
-    background-color: red;
     grid-template-columns: 1fr 1fr;
+    min-height: 100vh;
+
 }
 
 .contenido_izq {
-    background-color: green;
     display: grid;
+    row-gap: 0px;
 }
 
 
 .contenedor_titulo {
-    background-color: rgb(86, 202, 86);
-    width: 321px;
-    height: 165px;
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 
@@ -33,27 +32,6 @@ body {
 
 }
 
-.contenedor_titulo .C {
-    background-color: red;
-    margin-right: 10.03px;
-
-    max-width: 96.53px;
-}
-
-.contenedor_titulo .R {
-    background-color: red;
-    margin-right: 10.79px;
-
-    max-width: 75.81px;
-}
-
-.contenedor_titulo .A {
-    max-width: 65px;
-}
-
-.contenedor_titulo .E {
-    max-width: 65.03px;
-}
 
 
 
@@ -63,13 +41,11 @@ body {
 
 
 .contenedor_subtitulo {
-    background-color: blue;
     margin-left: 65px;
 
     font-family: ReadexPro-Medium;
     font-size: 27px;
-    width: 340px;
-    height: 72px;
+    width: 100%;
 
     margin-top: 21px;
     margin-bottom: 5px;
@@ -78,26 +54,23 @@ body {
 
 
 .contenedor_parrafo {
-    background-color: bisque;
     margin-left: 65px;
 
     font-family: ReadexPro-Light;
     font-size: 16px;
     line-height: 151.5%;
-    width: 340px;
-    height: 133px;
+    width: 100%;
 }
 
 
 
 .parrafo_final {
-    background-color: azure;
     margin-left: 65px;
 
     margin-top: 47px;
     font-family: ReadexPro-Light;
     font-size: 13px;
-
+    width: 100%;
 }
 
 
@@ -108,5 +81,15 @@ body {
 
 
 .contenido_derecha {
-    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+
+.contenido_derecha img {
+    width: 100%;
+    position: absolute;
 }
